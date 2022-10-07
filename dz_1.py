@@ -14,7 +14,6 @@ for data_hero in data_heroes:
         dict_heroes['intelligence'] = data_hero['powerstats']['intelligence']
         new_list_heroes.append(dict_heroes)
         
-print(new_list_heroes)
 maximum = 0
 for data_hero in new_list_heroes:
     if data_hero['intelligence'] > maximum:
