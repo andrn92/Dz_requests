@@ -4,7 +4,6 @@ import requests
 
 
 class YaUploader:
-
     def __init__(self, token):
         self.token = token
 
